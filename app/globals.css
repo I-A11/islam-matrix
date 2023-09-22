@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar grid area */
+
+.item-1 {
+  grid-area: item1;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  padding-top: 1rem;
+}
+.horizontal {
+  transform: translateY(-3.2rem);
+  width: 99%;
+}
+
+.item-2 {
+  grid-area: item2;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.item-3 {
+  grid-area: item3;
+  display: flex;
+  gap: 1rem;
+  align-self: center;
+}
+
+.container {
+  grid-template-areas:
+    "item1 item3"
+    "item2 item3";
+}
+
+@media (max-width: 479px) {
+  .horizontal {
+    width: 98.5%;
+  }
+}
+@media (max-width: 361px) {
+  .horizontal {
+    width: 98%;
+  }
+}
