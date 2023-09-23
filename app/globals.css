@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/* Navbar grid area */
+/*Mobile Navbar grid area */
 
 .item-1 {
   grid-area: item1;

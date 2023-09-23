@@ -9,18 +9,19 @@ const Navbar = () => {
         <div className="justify-around hidden md:flex shadow-lg py-6 border-b-1">
           <div className="">Islam Aboamh</div>
           <div className="rotate-90 w-20 border-b-2 border-gray-800"></div>
-          <div className="flex justify-around space-x-6 ">
+          <div className="flex justify-around space-x-10 ">
             <div>Home</div>
             <div>About</div>
           </div>
           <div className="rotate-90 w-20 border-b-2 border-gray-800"></div>
-          <div className="flex space-x-4 ">
+          <div>
             <div className="flex">
               <Image src={RedPill} width={32} alt="Red pill" />
               <Image src={BluePill} width={32} alt="Blue pill" />
             </div>
           </div>
         </div>
+        {/* Mobile navbar */}
         <div className="container md:hidden bg-gray-100 max-w-full h-32 grid grid-cols-[3fr,1fr]">
           <div className="item-1">Islam Aboamh</div>
           <div className="horizontal border-t-2 border-gray-800"></div>
@@ -28,8 +29,8 @@ const Navbar = () => {
             <div>Home</div>
             <div>About</div>
           </div>
-          <div className="rotate-90 -translate-x-16 -translate-y-16 w-32 border-b-2 border-gray-800"></div>
-          <div className="item-3 ml-6">
+          <div className="rotate-90 -translate-x-16 -translate-y-[3.6rem] w-32 border-b-2 border-gray-800"></div>
+          <div className="item-3 ml-6 -space-x-4 md:space-x-0">
             <Image src={RedPill} width={48} alt="Red pill" />
             <Image src={BluePill} width={48} alt="Blue pill" />
           </div>
