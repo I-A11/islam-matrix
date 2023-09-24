@@ -34,6 +34,7 @@
   grid-area: item3;
   display: flex;
   align-self: center;
+  justify-self: center;
 }
 
 .container {
