@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import { ColorProvider } from "./context/color_context";
 import "./globals.css";
 import { Rubik } from "next/font/google";
 
@@ -14,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={rubik.className}>
         {/* <Navbar /> */}
-        {children}
+        <ColorProvider>{children}</ColorProvider>
       </body>
     </html>
   );

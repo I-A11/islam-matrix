@@ -1,10 +1,19 @@
+"use client";
+import { useState } from "react";
+import { useColorContext } from "../context/color_context";
 import { BsCapsule } from "react-icons/bs";
 import Link from "next/link";
 
 const Navbar = () => {
+  const { color, changeColor } = useColorContext();
+
   return (
     <div>
-      <nav className="w-full bg-cyan-100 sticky top-0 shadow-lg">
+      <nav
+        className={`w-full ${
+          color ? "bg-yellow-400" : "bg-green-600"
+        }  sticky top-0 shadow-lg`}
+      >
         <div className="justify-around items-center hidden md:flex py-6 border-b-1 ">
           <Link className="hover:underline decoration-1" href="/">
             Islam Aboamh
@@ -23,7 +32,7 @@ const Navbar = () => {
             <Link href="/matrix">
               <BsCapsule fill="red" size={32} className="text-red-700" />
             </Link>
-            <Link href="/">
+            <Link href="/" onClick={changeColor}>
               <BsCapsule fill="blue" size={32} className="text-blue-700" />
             </Link>
           </div>
