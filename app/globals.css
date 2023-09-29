@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global CSS */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.section {
+  max-width: 1200px;
 }
 
 /*Mobile Navbar grid area */
@@ -51,5 +57,24 @@
 @media (max-width: 361px) {
   .horizontal {
     width: 98%;
+  }
+}
+
+/* HomeHero */
+.wakeUp {
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 0.15em;
+  animation: type 12s steps(60, end) infinite;
+}
+@keyframes type {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
   }
 }

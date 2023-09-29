@@ -1,11 +1,14 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import HomeHero from "./components/HomeHero";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+      <main className="section mx-auto">
+        <HomeHero />
+      </main>
     </>
   );
 }

@@ -4,7 +4,7 @@ import React, { useContext, useState } from "react";
 
 const ColorContext = React.createContext();
 export const ColorProvider = ({ children }) => {
-  const [color, setColor] = useState(false);
+  const [color, setColor] = useState(true);
 
   const changeColor = () => {
     setColor(!color);

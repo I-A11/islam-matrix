@@ -56,7 +56,7 @@ const Navbar = () => {
             <Link href="/matrix">
               <BsCapsule fill="red" size={32} className="text-red-700" />
             </Link>
-            <Link href="/">
+            <Link href="/" onClick={changeColor}>
               <BsCapsule fill="blue" size={32} className="text-blue-700" />
             </Link>
           </div>
