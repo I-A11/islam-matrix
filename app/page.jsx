@@ -6,9 +6,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="section mx-auto">
-        <HomeHero />
-      </main>
+      <HomeHero />
     </>
   );
 }
