@@ -15,7 +15,7 @@ const Canvas = (props) => {
     ctx.font = "normal 24px monospace";
     ctx.textAlign = "left";
     ctx.textBaseline = "top";
-    ctx.fillStyle = "green";
+    ctx.fillStyle = "#187117";
     ctx.strokeStyle = "rgba(0, 0, 0, 0)";
     ctx.shadowColor = "#3f3";
     var page = 0;
@@ -23,8 +23,8 @@ const Canvas = (props) => {
     // ... multiple messages... //
     var messagesArray = new Array(
       "Wake up, Islam...",
-      "The Matrix has you ",
-      "Follow the white rabbit."
+      "The Matrix has you... ",
+      "Follow the white rabbit. "
     );
 
     // ...cursor style... //

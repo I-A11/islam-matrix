@@ -11,7 +11,7 @@ const Navbar = () => {
     <div>
       <nav
         className={`w-full ${
-          color ? "bg-yellow-400" : "bg-green-600"
+          color ? "bg-yellow-400" : "bg-cyan-500"
         }  sticky top-0 shadow-lg`}
       >
         <div className="justify-around items-center hidden md:flex py-6 border-b-1 ">
@@ -29,11 +29,11 @@ const Navbar = () => {
           </div>
           <div className="rotate-90 w-20 border-b-2 border-gray-800 translate-x-5"></div>
           <div className="flex mr-6">
-            <Link href="/matrix">
-              <BsCapsule fill="red" size={32} className="text-red-700" />
-            </Link>
             <Link href="/" onClick={changeColor}>
               <BsCapsule fill="blue" size={32} className="text-blue-700" />
+            </Link>
+            <Link href="/matrix">
+              <BsCapsule fill="red" size={32} className="text-red-700" />
             </Link>
           </div>
         </div>
@@ -53,11 +53,11 @@ const Navbar = () => {
           </div>
           <div className="rotate-90 -translate-x-16 -translate-y-[3.6rem] w-32 border-b-2 border-gray-800"></div>
           <div className="item-3 ml-6  md:space-x-0">
-            <Link href="/matrix">
-              <BsCapsule fill="red" size={32} className="text-red-700" />
-            </Link>
             <Link href="/" onClick={changeColor}>
               <BsCapsule fill="blue" size={32} className="text-blue-700" />
+            </Link>
+            <Link href="/matrix">
+              <BsCapsule fill="red" size={32} className="text-red-700" />
             </Link>
           </div>
         </div>
