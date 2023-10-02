@@ -8,21 +8,18 @@ import Link from "next/link";
 import Image from "next/image";
 import Shelf from "../assets/images/shelf.svg";
 import VanPortrait from "../assets/images/van-portrait.svg";
-import Painting from "../assets/images/painting.png";
+import Painting from "../assets/images/paint-1.png";
 
 const HomeHero = () => {
   const { color, changeColor } = useColorContext();
   return (
     <div className={` ${color ? "bg-indigo-300" : "bg-amber-300"} h-72`}>
       <Canvas />
-      <div
-        className=" -mt-4 grid grid-cols-9 grid-rows-2 max-w-[50rem] mx-auto"
-        ml-4
-      >
-        <div className="row-start-1 col-start-1 col-end-3">
+      <div className=" -mt-4 grid grid-cols-11  max-w-[50rem] mx-auto" ml-4>
+        <div className=" col-start-1 col-end-4">
           <Image src={Painting} alt="Van Gogh" width={400} className="ml-6" />
         </div>
-        <div className=" row-start-1 col-start-5 col-span-2">
+        <div className="  col-start-6 col-span-2">
           <Link href="/matrix">
             <GiRabbit size={72} fill="white" />
           </Link>
