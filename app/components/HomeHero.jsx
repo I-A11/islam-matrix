@@ -3,15 +3,14 @@
 import Canvas from "./WakeUp";
 import { useColorContext } from "../context/color_context";
 import { GiRabbit } from "react-icons/gi";
-import { MdLinkedCamera } from "react-icons/md";
 import Link from "next/link";
 import Image from "next/image";
 import Media from "../assets/images/media.png";
-import VanPortrait from "../assets/images/van-portrait.svg";
+import MediaColored from "../assets/images/media-1.png";
 import Painting from "../assets/images/paint-1.png";
 
 const HomeHero = () => {
-  const { color, changeColor } = useColorContext();
+  const { color } = useColorContext();
   return (
     <div
       className={` ${color ? "bg-indigo-300" : "bg-amber-300"} h-56 xs:h-80`}
@@ -28,7 +27,11 @@ const HomeHero = () => {
         </div>
 
         <div className="col-start-8 col-end-12 self-end hidden xs:block">
-          <Image src={Media} alt="media" width={600} />
+          {color ? (
+            <Image src={Media} alt="media" width={600} />
+          ) : (
+            <Image src={MediaColored} alt="media" width={600} />
+          )}
         </div>
       </div>
     </div>
