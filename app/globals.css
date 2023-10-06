@@ -62,12 +62,35 @@
 
 /* HomeHero */
 
+/* canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  z-index: 100;
+  transform: translateY(-16.5rem);
+}
+
+@media (max-width: 420px) {
+  canvas {
+    transform: translateY(-11rem);
+  }
+}
+@media (max-width: 409px) {
+  canvas {
+    width: 250px;
+  }
+} */
+
+/* ////////// */
 canvas {
   padding-left: 0;
   padding-right: 0;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
+  z-index: 100;
   transform: translateY(-16.5rem);
 }
 
