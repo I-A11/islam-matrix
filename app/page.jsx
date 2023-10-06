@@ -1,14 +1,12 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
-import HomeHero from "./components/HomeHero";
-import HomeHeroCopy from "./components/HomeHero-copy";
+import HomeContainer from "./components/HomeContainer";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <HomeHero /> */}
-      <HomeHeroCopy />
+      <HomeContainer />
     </>
   );
 }
