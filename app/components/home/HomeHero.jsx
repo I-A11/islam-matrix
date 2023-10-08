@@ -1,13 +1,13 @@
 "use client";
 
-import Canvas from "./WakeUp";
-import { useColorContext } from "../context/color_context";
+import Canvas from "../WakeUp";
+import { useColorContext } from "../../context/color_context";
 import { GiRabbit } from "react-icons/gi";
 import Link from "next/link";
 import Image from "next/image";
-import Media from "../assets/images/media.png";
-import MediaColored from "../assets/images/media-1.png";
-import Painting from "../assets/images/paint-1.png";
+import Media from "../../assets/images/media.png";
+import MediaColored from "../../assets/images/media-1.png";
+import Painting from "../../assets/images/paint-1.png";
 
 const HomeHero = () => {
   const { color } = useColorContext();
