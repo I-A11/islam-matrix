@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { useColorContext } from "../context/color_context";
+import { useColorContext } from "../../context/color_context";
 import { BsCapsule } from "react-icons/bs";
 import Link from "next/link";
 
@@ -14,7 +14,7 @@ const Navbar = () => {
           color ? "bg-yellow-300" : "bg-cyan-500"
         }  sticky top-0 shadow-lg`}
       >
-        <div className="justify-around items-center hidden md:flex py-6 border-b-1 ">
+        <div className="justify-around items-center hidden md:flex py-6 border-b-1 font-semibold">
           <Link className="hover:underline decoration-1" href="/">
             Islam Aboamh
           </Link>

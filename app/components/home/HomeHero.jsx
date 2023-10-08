@@ -15,8 +15,10 @@ const HomeHero = () => {
     <div
       className={` bg-gray-300 h-56 xs:h-80 border-8 border-gray-800 mt-10 rounded-lg xs:max-w-[38rem] mx-auto`}
     >
-      <div className="flex xs:flex-row flex-col justify-center xs:pr-8 pr-0 items-center xs:max-w-[36rem] mx-auto ">
-        <Canvas />
+      <div className="flex xs:flex-row flex-col justify-between xs:pr-8 pr-0 items-center xs:max-w-[38rem] mx-auto">
+        <div className="">
+          <Canvas />
+        </div>
         <div className="">
           <Link href="/matrix">
             <GiRabbit size={60} fill="white" className="" />

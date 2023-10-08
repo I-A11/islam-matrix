@@ -71,16 +71,40 @@ canvas {
   margin-right: auto;
   width: 300px;
   z-index: 100;
-  transform: translateY(-22.5rem);
+  transform: translateY(-38rem);
 }
 
-@media (max-width: 420px) {
+@media (max-width: 655px) {
   canvas {
-    transform: translateY(-16rem);
+    transform: translateY(-40.5rem);
   }
 }
-@media (max-width: 409px) {
+
+@media (max-width: 639px) {
   canvas {
+    transform: translateY(-38rem);
+  }
+}
+@media (max-width: 530px) {
+  canvas {
+    transform: translateY(-41rem);
     width: 250px;
+  }
+}
+@media (max-width: 420px) {
+  canvas {
+    transform: translateY(-34rem);
+  }
+}
+
+@media (max-width: 384px) {
+  canvas {
+    transform: translateY(-37rem);
+    width: 220px;
+  }
+}
+@media (max-width: 289px) {
+  canvas {
+    transform: translateY(-39rem);
   }
 }
