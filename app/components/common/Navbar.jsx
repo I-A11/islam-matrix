@@ -11,7 +11,7 @@ const Navbar = () => {
     <div>
       <nav
         className={`w-full ${
-          color ? "bg-yellow-300" : "bg-cyan-500"
+          color ? "bg-cyan-300" : "bg-cyan-500"
         }  sticky top-0 shadow-lg`}
       >
         <div className="justify-around items-center hidden md:flex py-6 border-b-1 font-semibold">

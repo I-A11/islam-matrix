@@ -10,9 +10,7 @@ const HomeContainer = () => {
 
   return (
     <div
-      className={` ${
-        color ? "bg-indigo-300" : "bg-amber-300"
-      } h pt-4 pb-10 px-6`}
+      className={` ${color ? "bg-blue-500" : "bg-amber-300"} h pt-4 pb-10 px-6`}
     >
       <HomeHero />
       <Image src={Base} alt="desktop base" width={200} className="mx-auto" />
