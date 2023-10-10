@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* Mobile navbar */}
-        <div className="container md:hidden  max-w-full h-32 grid grid-cols-[3fr,1fr]">
+        <div className="container md:hidden  max-w-full h-32 grid grid-cols-[3fr,1fr] font-semibold">
           <Link className="item-1 hover:underline decoration-1" href="/">
             Islam Aboamh
           </Link>
