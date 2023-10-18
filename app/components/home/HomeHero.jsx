@@ -15,20 +15,20 @@ const HomeHero = () => {
     <div
       className={` ${
         color ? "bg-blue-300" : "bg-gray-300"
-      } h-56 xs:h-80 border-8 border-gray-800 mt-10 rounded-lg xs:max-w-[38rem] mx-auto`}
+      } h-56 xs:h-80 border-8 border-gray-800 mt-10 rounded-lg xs:max-w-[38rem] mx-auto relative`}
     >
-      <div className="flex xs:flex-row flex-col justify-between xs:pr-8 pr-0 items-center xs:max-w-[38rem] mx-auto">
-        <div className="">
+      <div className="flex xs:flex-row flex-col justify-around xs:pr-8 pr-0 items-center xs:max-w-[38rem] mx-auto ">
+        <div className=" bg-red-500 h-10 mx-auto mt-10 relative ">
           <Canvas />
         </div>
-        <div className="">
+        <div className="sm:mr-6 mt-3">
           <Link href="/matrix">
-            <GiRabbit size={60} fill="white" className="" />
+            <GiRabbit size={60} fill="white" className="whiteRabbit" />
           </Link>
         </div>
       </div>
       <div className="">
-        <div className=" -mt-8 grid xs:grid-cols-11 grid-cols-3  max-w-[50rem] mx-auto">
+        <div className=" mt-8 grid xs:grid-cols-11 grid-cols-3  max-w-[50rem] mx-auto">
           <div className=" col-start-2 col-end-6 hidden xs:block">
             <Image
               src={Painting}
