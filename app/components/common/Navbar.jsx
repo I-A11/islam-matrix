@@ -29,9 +29,9 @@ const Navbar = () => {
           </div>
           <div className="rotate-90 w-20 border-b-2 border-gray-800 translate-x-5"></div>
           <div className="flex mr-6">
-            <Link href="/" onClick={changeColor}>
+            <button onClick={changeColor}>
               <BsCapsule fill="blue" size={32} className="text-blue-700" />
-            </Link>
+            </button>
             <Link href="/matrix">
               <BsCapsule fill="red" size={32} className="text-red-700" />
             </Link>
