@@ -20,22 +20,27 @@ const ProjectCard = ({ image, title, siteLink, githubLink }) => {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
       onViewportEnter={() => setIsInView(true)}
-      className="bg-gray-300 px-8 py-6"
+      className="flex flex-col justify-center"
     >
-      <div className="">
+      <div className="h-64 overflow-hidden">
         <Image
-          width={500}
+          className="rounded-xl overflow-hidden"
+          style={{ width: "100%", height: "100%" }}
           alt={title}
           src={image}
           onLoad={() => setIsLoaded(true)}
         />
       </div>
-      <h3>{title}</h3>
-      <div className="flex justify-center items-center space-x-5 font-bold">
-        <a href={siteLink} target="_blank">
+      <h3 className="mt-6 text-center font-bold">{title}</h3>
+      <div className="flex justify-center items-center space-x-5 mt-2 text-sm">
+        <a className="bg-white p-2 rounded-md" href={siteLink} target="_blank">
           View Project
         </a>
-        <a href={githubLink} target="_blank">
+        <a
+          className="bg-white p-2 rounded-md"
+          href={githubLink}
+          target="_blank"
+        >
           Project Code
         </a>
       </div>
