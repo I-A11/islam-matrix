@@ -7,7 +7,7 @@ import Tetris from "../../assets/images/projectsImages/tetris.png";
 import MoviesClub from "../../assets/images/projectsImages/Movies-club.PNG";
 import SportSociety from "../../assets/images/projectsImages/sport-society.PNG";
 
-export const ProjectData = [
+const ProjectData = [
   {
     id: 1,
     projectTitle: "Home Style",
@@ -66,3 +66,5 @@ export const ProjectData = [
     githubLink: "https://github.com/I-A11/Sport-Society",
   },
 ];
+
+export default ProjectData;

@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
-import { ProjectData } from "./projectsData";
+import ProjectData from "./ProjectsData";
 
 const WorkingProjects = () => {
   return (

@@ -17,10 +17,10 @@ const Footer = () => {
             target="_blank"
             href="https://www.linkedin.com/in/islam-aboamh/"
           >
-            <BsLinkedin size={40} fill="#861e1e" className="mr-4" />
+            <BsLinkedin size={40} fill="#124280" className="mr-4" />
           </Link>
           <Link target="_blank" href="https://github.com/I-A11">
-            <BsGithub size={40} fill="#861e1e" className="" />
+            <BsGithub size={40} fill="#124280" className="" />
           </Link>
         </div>
         <Link href="mailto:d.islam1983@gmail.com">
