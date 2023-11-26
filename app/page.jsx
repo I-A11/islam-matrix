@@ -1,3 +1,4 @@
+import Footer from "./components/common/Footer";
 import Navbar from "./components/common/Navbar";
 import HomeContainer from "./components/home/HomeContainer";
 import HomeMessage from "./components/home/HomeMessage";
@@ -10,6 +11,7 @@ export default function Home() {
       <HomeContainer />
       <HomeMessage />
       <Projects />
+      <Footer />
     </>
   );
 }
