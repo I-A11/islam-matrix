@@ -8,13 +8,15 @@ const About = () => {
     <div>
       <Navbar />
       <div className="p-2">
-        <div className="py-10 px-1 w-full mx-auto text-black text-center text-xl">
+        <div className="pt-12 px-1 w-full mx-auto text-black text-center text-xl sm:text-3xl">
           <h1>
             Hello, I am <span className="text-cyan-400">Islam Aboamh </span>
           </h1>
-          <h2 className="text-lg">I am a front-end developer </h2>
+          <h2 className="text-lg sm:text-2xl mt-6">
+            I am a front-end developer{" "}
+          </h2>
         </div>
-        <div className="w-40 mr-16 ">
+        <div className="flex justify-center mx-auto w-60 sm:w-80">
           <Image src={IslamImage} alt="Islam image" />
         </div>
         <div className="section flex items-center justify-between py-4 px-16">
