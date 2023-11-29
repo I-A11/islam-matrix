@@ -1,12 +1,14 @@
+"use client";
+
 import Link from "next/link";
+import Navbar from "../components/common/matrix/Navbar";
+import Footer from "../components/common/matrix/Footer";
 
 const Matrix = () => {
   return (
-    <div className="h-[100vh] z-50 bg-slate-600">
-      <Link href="/">Home</Link>
-      <div className="">
-        <div>Matrix page</div>
-      </div>
+    <div className="">
+      <Navbar />
+      <Footer />
     </div>
   );
 };
