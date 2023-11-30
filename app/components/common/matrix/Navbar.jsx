@@ -10,6 +10,7 @@ const Navbar = () => {
   return (
     <div>
       <nav
+        style={{ textShadow: "0px 0px 8px rgba(32, 194, 14, 0.8)" }}
         className={`w-full bg-gray-600 text-green-500 sticky top-0 shadow-lg`}
       >
         <div className="justify-around items-center hidden md:flex py-6 border-b-1 font-semibold">

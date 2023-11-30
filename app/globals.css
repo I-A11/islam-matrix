@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 /* Global CSS */
+@font-face {
+  font-family: matrixFont;
+  src: url(./assets/fonts/matrixFont.ttf);
+}
 
 * {
   margin: 0;

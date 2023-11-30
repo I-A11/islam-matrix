@@ -3,7 +3,10 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-600 text-green-500">
+    <div
+      style={{ textShadow: "0px 0px 8px rgba(32, 194, 14, 0.8)" }}
+      className="bg-gray-600 text-green-500"
+    >
       <div className="border-2 border-gray-500 w-full mx-auto"></div>
 
       <div className="section mx-auto p-12">
@@ -24,7 +27,7 @@ const Footer = () => {
           </Link>
         </div>
         <Link href="mailto:d.islam1983@gmail.com">
-          <button className="bg-gray-900 text-white flex items-center justify-center self-center mx-auto my-4 p-3 border-none rounded-lg cursor-pointer">
+          <button className="bg-gray-900 text-green-500 flex items-center justify-center self-center mx-auto my-4 p-3 border-none rounded-lg cursor-pointer">
             Send email
           </button>
         </Link>
