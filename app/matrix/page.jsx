@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Navbar from "../components/common/matrix/Navbar";
 import Footer from "../components/common/matrix/Footer";
-import MatrixRain from "./MatrixRain";
+import MatrixRain from "../components/MatrixRain";
 import MatrixProjectCard from "../components/projects-section/MatrixProjectCard";
 import ProjectData from "../components/projects-section/ProjectsData";
 

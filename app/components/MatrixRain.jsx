@@ -143,7 +143,7 @@ const MatrixRain = (props) => {
         overflow: "ignore",
         display: "flex",
         flexDirection: "row",
-        justifyContent: "center",
+        justifyContent: "space-between",
         height: "30%",
       }}
       ref={containerRef}
