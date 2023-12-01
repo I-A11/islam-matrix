@@ -136,7 +136,7 @@ const MatrixRain = (props) => {
       style={{
         background: "transparent",
         position: "fixed",
-        top: 75,
+        top: 100,
         left: 0,
         bottom: -100,
         right: 0,

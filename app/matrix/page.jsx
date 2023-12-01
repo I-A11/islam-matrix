@@ -6,11 +6,13 @@ import Footer from "../components/common/matrix/Footer";
 import MatrixRain from "../components/MatrixRain";
 import MatrixProjectCard from "../components/projects-section/MatrixProjectCard";
 import ProjectData from "../components/projects-section/ProjectsData";
+import MatrixHomeHero from "../components/home/MatrixHomeHero";
 
 const Matrix = () => {
   return (
     <div className="">
       <Navbar />
+      <MatrixHomeHero />
       <div className=" bg-black">
         <div className="section grid py-10 mx-auto pt-14 px-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {ProjectData.map((project) => {
