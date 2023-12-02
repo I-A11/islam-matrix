@@ -7,6 +7,7 @@ const MatrixHomeHero = () => {
       <div className="">
         <Image
           style={{
+            filter: "grayScale(100%)",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             width: "100vw",
