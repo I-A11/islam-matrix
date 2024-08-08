@@ -15,6 +15,7 @@ const ProjectData = [
     projectImage: PricelessChemist,
     siteLink: "https://pricelesschemist.com.au/",
     githubLink: "https://github.com/I-A11/priceless-chemist",
+    showCodeButton: false,
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const ProjectData = [
     projectImage: HomeStyle,
     siteLink: "https://home-style.netlify.app/",
     githubLink: "https://github.com/I-A11/home-style",
+    showCodeButton: true,
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const ProjectData = [
     projectImage: MovieStudio,
     siteLink: "https://studio-movies.netlify.app/",
     githubLink: "https://github.com/I-A11/Movie-Studio",
+    showCodeButton: true,
   },
   {
     id: 4,
@@ -36,6 +39,7 @@ const ProjectData = [
     projectImage: Apei,
     siteLink: "https://charming-bubblegum-a0b061.netlify.app/",
     githubLink: "https://github.com/I-A11/apei",
+    showCodeButton: false,
   },
   {
     id: 5,
@@ -43,13 +47,16 @@ const ProjectData = [
     projectImage: CryptoGalaxy,
     siteLink: "https://crypto-galaxy-drab.vercel.app/",
     githubLink: "https://github.com/I-A11/CryptoGalaxy",
+    showCodeButton: true,
   },
+
   {
     id: 6,
     projectTitle: "Task Hunter",
     projectImage: TaskHunter,
     siteLink: "https://task-hunter.netlify.app/",
     githubLink: "https://github.com/I-A11/Task-Hunter",
+    showCodeButton: true,
   },
   {
     id: 7,
@@ -57,6 +64,7 @@ const ProjectData = [
     projectImage: Tetris,
     siteLink: "https://quizzical-ptolemy-8ea29d.netlify.app/",
     githubLink: "https://github.com/I-A11/Tetris-Game",
+    showCodeButton: true,
   },
   {
     id: 8,
@@ -64,6 +72,7 @@ const ProjectData = [
     projectImage: MoviesClub,
     siteLink: "https://moviesclub.netlify.app/",
     githubLink: "https://github.com/I-A11/MoviesClub",
+    showCodeButton: true,
   },
 
   {
@@ -72,6 +81,7 @@ const ProjectData = [
     projectImage: SportSociety,
     siteLink: "https://sportsociety.netlify.app/",
     githubLink: "https://github.com/I-A11/Sport-Society",
+    showCodeButton: true,
   },
 ];
 
