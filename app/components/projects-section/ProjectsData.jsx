@@ -7,10 +7,19 @@ import Tetris from "../../assets/images/projectsImages/tetris.png";
 import MoviesClub from "../../assets/images/projectsImages/Movies-club.PNG";
 import SportSociety from "../../assets/images/projectsImages/sport-society.PNG";
 import PricelessChemist from "../../assets/images/projectsImages/priceless-chemist.png";
+import Fts from "../../assets/images/projectsImages/fts.png";
 
 const ProjectData = [
   {
     id: 1,
+    projectTitle: "Fintacs Taxation",
+    projectImage: Fts,
+    siteLink: "https://fintacstax.com.au/",
+    githubLink: "https://github.com/I-A11/fts",
+    showCodeButton: false,
+  },
+  {
+    id: 2,
     projectTitle: "Priceless Chemist",
     projectImage: PricelessChemist,
     siteLink: "https://pricelesschemist.com.au/",
@@ -18,7 +27,7 @@ const ProjectData = [
     showCodeButton: false,
   },
   {
-    id: 2,
+    id: 3,
     projectTitle: "Home Style",
     projectImage: HomeStyle,
     siteLink: "https://home-style.netlify.app/",
@@ -26,7 +35,7 @@ const ProjectData = [
     showCodeButton: true,
   },
   {
-    id: 3,
+    id: 4,
     projectTitle: "Movie Studio",
     projectImage: MovieStudio,
     siteLink: "https://studio-movies.netlify.app/",
@@ -34,7 +43,7 @@ const ProjectData = [
     showCodeButton: true,
   },
   {
-    id: 4,
+    id: 5,
     projectTitle: "APEI",
     projectImage: Apei,
     siteLink: "https://charming-bubblegum-a0b061.netlify.app/",
@@ -42,7 +51,7 @@ const ProjectData = [
     showCodeButton: false,
   },
   {
-    id: 5,
+    id: 6,
     projectTitle: "Crypto Galaxy",
     projectImage: CryptoGalaxy,
     siteLink: "https://crypto-galaxy-drab.vercel.app/",
@@ -51,7 +60,7 @@ const ProjectData = [
   },
 
   {
-    id: 6,
+    id: 7,
     projectTitle: "Task Hunter",
     projectImage: TaskHunter,
     siteLink: "https://task-hunter.netlify.app/",
@@ -59,7 +68,7 @@ const ProjectData = [
     showCodeButton: true,
   },
   {
-    id: 7,
+    id: 8,
     projectTitle: "Tetris",
     projectImage: Tetris,
     siteLink: "https://quizzical-ptolemy-8ea29d.netlify.app/",
@@ -67,7 +76,7 @@ const ProjectData = [
     showCodeButton: true,
   },
   {
-    id: 8,
+    id: 9,
     projectTitle: "Movies Club",
     projectImage: MoviesClub,
     siteLink: "https://moviesclub.netlify.app/",
@@ -75,14 +84,14 @@ const ProjectData = [
     showCodeButton: true,
   },
 
-  {
-    id: 9,
-    projectTitle: "Sport Society",
-    projectImage: SportSociety,
-    siteLink: "https://sportsociety.netlify.app/",
-    githubLink: "https://github.com/I-A11/Sport-Society",
-    showCodeButton: true,
-  },
+  // {
+  //   id: 10,
+  //   projectTitle: "Sport Society",
+  //   projectImage: SportSociety,
+  //   siteLink: "https://sportsociety.netlify.app/",
+  //   githubLink: "https://github.com/I-A11/Sport-Society",
+  //   showCodeButton: true,
+  // },
 ];
 
 export default ProjectData;
