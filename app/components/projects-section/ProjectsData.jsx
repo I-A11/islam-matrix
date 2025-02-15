@@ -18,14 +18,14 @@ const ProjectData = [
     githubLink: "https://github.com/I-A11/fts",
     showCodeButton: false,
   },
-  {
-    id: 2,
-    projectTitle: "Priceless Chemist",
-    projectImage: PricelessChemist,
-    siteLink: "https://pricelesschemist.com.au/",
-    githubLink: "https://github.com/I-A11/priceless-chemist",
-    showCodeButton: false,
-  },
+  // {
+  //   id: 2,
+  //   projectTitle: "Priceless Chemist",
+  //   projectImage: PricelessChemist,
+  //   siteLink: "https://pricelesschemist.com.au/",
+  //   githubLink: "https://github.com/I-A11/priceless-chemist",
+  //   showCodeButton: false,
+  // },
   {
     id: 3,
     projectTitle: "Home Style",
